@@ -10,8 +10,8 @@
     display: flex;
     border: 1px solid black;
     padding: 10px;
-    flex-wrap: wrap;
-    flex-direction: row;
+     flex-wrap: wrap; 
+     flex-direction: row; 
     justify-content: space-around;
 }
 .flex-blackjack-row-1,.flex-blackjack-row-2{
@@ -32,13 +32,19 @@
     text-align: center;
 
 }
-.flex-blackjack-row-2 button{
-    border: 1px solid black;
-}
 .flex-blackjack-row-2 div{
     border: 1px solid black;
     padding: 10px;
+    
+
 }
+.flex-blackjack-row-2 button{
+    border: 1px solid black;
+    
+}
+
+
+
 /* table color */
 .flex-blackjack-row-3{
     padding: 10px;
